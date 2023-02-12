@@ -1,11 +1,10 @@
-import { Suspense } from "react";
-import {useTranslation} from "react-i18next";
-import {AppRouter} from "app/providers/router";
-import {classNames} from "shared/lib/classNames/classNames";
-import { useTheme } from "app/providers/ThemeProvider";
-import {Navbar} from "widgets/Navbar";
-import {Sidebar} from "widgets/Sidebar";
-import './styles/index.scss'
+import { Suspense } from 'react';
+import { AppRouter } from 'app/providers/router';
+import { classNames } from 'shared/lib/classNames/classNames';
+import { useTheme } from 'app/providers/ThemeProvider';
+import { Navbar } from 'widgets/Navbar';
+import { Sidebar } from 'widgets/Sidebar';
+import './styles/index.scss';
 
 const App = () => {
     const { theme } = useTheme();
