@@ -1,6 +1,10 @@
 {
   "a123_page": "",
   "about_page": "",
+  "error_boundary_text": "",
   "lang": "",
-  "main_page": ""
+  "main_page": "",
+  "page_not_found": "page_not_found",
+  "reload_page": "",
+  "throw_error": "throw_error"
 }
