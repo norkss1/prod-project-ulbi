@@ -1,10 +1,11 @@
 {
-  "a123_page": "",
-  "about_page": "",
-  "error_boundary_text": "",
-  "lang": "",
-  "main_page": "",
-  "page_not_found": "page_not_found",
-  "reload_page": "",
-  "throw_error": "throw_error"
+  "test_example": "Тестовый пример",
+  "translate": "Перевод",
+  "main_page": "Главная страница",
+  "lang": "Русский",
+  "page_not_found": "Страница не найдена",
+  "error_boundary_text": "Произошла непредвиденная ошибка",
+  "reload_page": "Обновить страницу",
+  "throw_error": "Пробросить ошибку",
+  "toggle": "Переключить"
 }

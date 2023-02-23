@@ -1,11 +1,11 @@
 {
-  "a123_page": "",
-  "about_page": "",
-  "error_boundary_text": "",
-  "lang": "",
-  "main_page": "",
-  "page_not_found": "page_not_found",
-  "reload_page": "",
-  "throw error": "",
-  "throw_error": ""
+  "test_example": "Text example",
+  "translate": "Translate",
+  "main_page": "Main page",
+  "lang": "English",
+  "page_not_found": "Page not found",
+  "error_boundary_text": "An unexpected error has occurred",
+  "reload_page": "Reload page",
+  "throw_error": "Throw Error",
+  "toggle": "Toggle"
 }
