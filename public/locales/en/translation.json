@@ -2,6 +2,7 @@
   "test_example": "Text example",
   "translate": "Translate",
   "main_page": "Main page",
+  "about_page": "About us",
   "lang": "English",
   "page_not_found": "Page not found",
   "error_boundary_text": "An unexpected error has occurred",

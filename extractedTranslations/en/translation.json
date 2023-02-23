@@ -1,11 +1,12 @@
 {
-  "test_example": "Text example",
-  "translate": "Translate",
-  "main_page": "Main page",
-  "lang": "English",
-  "page_not_found": "Page not found",
+  "about_page": "",
   "error_boundary_text": "An unexpected error has occurred",
+  "lang": "English",
+  "main_page": "Main page",
+  "page_not_found": "Page not found",
   "reload_page": "Reload page",
+  "test_example": "Text example",
   "throw_error": "Throw Error",
-  "toggle": "Toggle"
+  "toggle": "Toggle",
+  "translate": "Translate"
 }

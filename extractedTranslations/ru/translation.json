@@ -1,11 +1,12 @@
 {
-  "test_example": "Тестовый пример",
-  "translate": "Перевод",
-  "main_page": "Главная страница",
-  "lang": "Русский",
-  "page_not_found": "Страница не найдена",
+  "about_page": "",
   "error_boundary_text": "Произошла непредвиденная ошибка",
+  "lang": "Русский",
+  "main_page": "Главная страница",
+  "page_not_found": "Страница не найдена",
   "reload_page": "Обновить страницу",
+  "test_example": "Тестовый пример",
   "throw_error": "Пробросить ошибку",
-  "toggle": "Переключить"
+  "toggle": "Переключить",
+  "translate": "Перевод"
 }
