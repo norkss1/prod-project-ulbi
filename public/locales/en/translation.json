@@ -8,5 +8,6 @@
   "error_boundary_text": "An unexpected error has occurred",
   "reload_page": "Reload page",
   "throw_error": "Throw Error",
-  "toggle": "Toggle"
+  "toggle": "Toggle",
+  "short_lang": "En"
 }
