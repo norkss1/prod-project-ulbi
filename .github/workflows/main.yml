@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 jobs:
   pipeline:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [ 17.x ]
@@ -25,7 +25,7 @@ jobs:
       - name: linting typescript
         run: npm run lint:ts
         if: always()
-      - name: linting scss
+      - name: linting css
         run: npm run lint:scss
       - name: unit testing
         if: always()
