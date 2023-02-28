@@ -9,5 +9,6 @@
   "reload_page": "Обновить страницу",
   "throw_error": "Пробросить ошибку",
   "toggle": "Переключить",
-  "short_lang": "Ru"
+  "short_lang": "Ru",
+  "signin": "Войти"
 }

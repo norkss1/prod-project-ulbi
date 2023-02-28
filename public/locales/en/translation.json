@@ -9,5 +9,6 @@
   "reload_page": "Reload page",
   "throw_error": "Throw Error",
   "toggle": "Toggle",
-  "short_lang": "En"
+  "short_lang": "En",
+  "signin": "Sign In"
 }
