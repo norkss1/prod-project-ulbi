@@ -5,7 +5,9 @@
     }
   },
   "about_page": "",
+  "decrement": "",
   "error_boundary_text": "An unexpected error has occurred",
+  "increment": "",
   "lang": "English",
   "main_page": "Main page",
   "page_not_found": "Page not found",

@@ -10,5 +10,7 @@
   "throw_error": "Throw Error",
   "toggle": "Toggle",
   "short_lang": "En",
-  "signin": "Sign In"
+  "signin": "Sign In",
+  "increment": "Increment",
+  "decrement": "Decrement"
 }

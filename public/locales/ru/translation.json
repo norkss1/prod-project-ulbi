@@ -10,5 +10,7 @@
   "throw_error": "Пробросить ошибку",
   "toggle": "Переключить",
   "short_lang": "Ru",
-  "signin": "Войти"
+  "signin": "Войти",
+  "increment": "Добавить",
+  "decrement": "Убавить"
 }
