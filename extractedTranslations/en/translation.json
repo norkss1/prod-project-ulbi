@@ -1,4 +1,5 @@
 {
+  "": "",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
     " Modi, quos, similique": {
       " Eos fugiat illum itaque iure nam nihil placeat vel!": ""
@@ -6,9 +7,14 @@
   },
   "about_page": "",
   "decrement": "",
+  "enter_password": "enter_password",
+  "enter_userName": "",
+  "enter_username": "",
+  "enter_userpassword": "",
   "error_boundary_text": "An unexpected error has occurred",
   "increment": "",
   "lang": "English",
+  "login": "login",
   "main_page": "Main page",
   "page_not_found": "Page not found",
   "reload_page": "Reload page",

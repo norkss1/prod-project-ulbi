@@ -1,4 +1,5 @@
 {
+  "": "",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
     " Modi, quos, similique": {
       " Eos fugiat illum itaque iure nam nihil placeat vel!": ""
@@ -6,9 +7,14 @@
   },
   "about_page": "",
   "decrement": "",
+  "enter_password": "enter_password",
+  "enter_userName": "",
+  "enter_username": "",
+  "enter_userpassword": "",
   "error_boundary_text": "Произошла непредвиденная ошибка",
   "increment": "",
   "lang": "Русский",
+  "login": "login",
   "main_page": "Главная страница",
   "page_not_found": "Страница не найдена",
   "reload_page": "Обновить страницу",
