@@ -10,9 +10,12 @@
   "throw_error": "Throw Error",
   "toggle": "Toggle",
   "short_lang": "En",
-  "signin": "SignIn",
+  "sign_in": "SignIn",
+  "sign_out": "SignOut",
   "increment": "Increment",
   "decrement": "Decrement",
   "enter_username": "Enter Username",
-  "enter_password": "Enter Password"
+  "enter_password": "Enter Password",
+  "title_form": "Authorization Form",
+  "error_form": "Incorrect username or password"
 }

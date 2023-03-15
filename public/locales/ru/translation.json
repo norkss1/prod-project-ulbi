@@ -10,9 +10,12 @@
   "throw_error": "Пробросить ошибку",
   "toggle": "Переключить",
   "short_lang": "Ru",
-  "signin": "Войти",
+  "sign_in": "Войти",
+  "sign_out": "Выйти",
   "increment": "Добавить",
   "decrement": "Убавить",
   "enter_username": "Введите имя",
-  "enter_password": "Введите пароль"
+  "enter_password": "Введите пароль",
+  "title_form": "Форма авторизации",
+  "error_form": "Вы ввели неверный логин или пароль"
 }
