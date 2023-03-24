@@ -6,6 +6,11 @@
     }
   },
   "about_page": "",
+  "age": "",
+  "avatar": "",
+  "cancel_btn": "",
+  "city": "",
+  "currency": "",
   "decrement": "",
   "edit_btn": "",
   "enter_password": "enter_password",
@@ -21,9 +26,14 @@
   "login": "login",
   "main_page": "Главная страница",
   "page_not_found": "Страница не найдена",
+  "profile_card": {
+    "error_text": "",
+    "error_title": ""
+  },
   "profile_page": "",
   "profile_title": "",
   "reload_page": "Обновить страницу",
+  "save_btn": "",
   "sign_in": "",
   "sign_out": "",
   "signin": "",
@@ -32,5 +42,6 @@
   "throw_error": "Пробросить ошибку",
   "title_form": "",
   "toggle": "Переключить",
-  "translate": "Перевод"
+  "translate": "Перевод",
+  "username": ""
 }

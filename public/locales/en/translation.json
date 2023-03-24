@@ -17,6 +17,8 @@
   "decrement": "Decrement",
   "enter_username": "Enter Username",
   "enter_password": "Enter Password",
+  "currency": "Specify currency",
+  "country": "Specify country",
   "title_form": "Authorization Form",
   "error_form": "Incorrect username or password"
 }

@@ -6,6 +6,11 @@
     }
   },
   "about_page": "",
+  "age": "",
+  "avatar": "",
+  "cancel_btn": "",
+  "city": "",
+  "currency": "",
   "decrement": "",
   "edit_btn": "",
   "enter_password": "enter_password",
@@ -21,9 +26,14 @@
   "login": "login",
   "main_page": "Main page",
   "page_not_found": "Page not found",
+  "profile_card": {
+    "error_text": "",
+    "error_title": ""
+  },
   "profile_page": "",
   "profile_title": "",
   "reload_page": "Reload page",
+  "save_btn": "",
   "sign_in": "",
   "sign_out": "",
   "signin": "",
@@ -32,5 +42,6 @@
   "throw_error": "Throw Error",
   "title_form": "",
   "toggle": "Toggle",
-  "translate": "Translate"
+  "translate": "Translate",
+  "username": ""
 }

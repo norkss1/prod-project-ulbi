@@ -1,6 +1,16 @@
 {
   "profile_title": "Profile",
+  "save_btn": "Save",
   "edit_btn": "Edit",
+  "cancel_btn": "Cancel",
   "first_name": "Your name",
-  "last_name": "Your lastname"
+  "last_name": "Your lastname",
+  "age": "Your age",
+  "city": "Your city",
+  "username": "Your username",
+  "avatar": "Your avatar",
+  "profile_card": {
+    "error_title": "An error occurred while loading the profile",
+    "error_text": "Try refreshing the page"
+  }
 }
