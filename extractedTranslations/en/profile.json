@@ -1,6 +1,21 @@
 {
+  "age": "",
+  "avatar": "",
+  "cancel_btn": "",
+  "city": "",
   "edit_btn": "",
   "first_name": "",
   "last_name": "",
-  "profile_title": ""
+  "profile_card": {
+    "error_text": "",
+    "error_title": ""
+  },
+  "profile_title": "",
+  "save_btn": "",
+  "username": "",
+  "Данные не указаны": "",
+  "Имя и фамилия обязательны": "",
+  "Некорректный возраст": "",
+  "Некорректный регион": "",
+  "Серверная ошибка при сохранении": ""
 }
