@@ -11,6 +11,7 @@
   "avatar": "",
   "cancel_btn": "",
   "city": "",
+  "comments": "",
   "country": "",
   "currency": "",
   "decrement": "",
@@ -28,6 +29,7 @@
   "last_name": "",
   "login": "login",
   "main_page": "Main page",
+  "no_comments": "",
   "page_not_found": "Page not found",
   "profile_card": {
     "error_text": "",

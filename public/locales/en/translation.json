@@ -20,5 +20,6 @@
   "currency": "Specify currency",
   "country": "Specify country",
   "title_form": "Authorization Form",
-  "error_form": "Incorrect username or password"
+  "error_form": "Incorrect username or password",
+  "no_comments": "No comments"
 }

@@ -56,6 +56,7 @@ module.exports = {
         'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies,
         'no-param-reassign': 'off',
         'no-undef': 'off',
+        'react/jsx-max-props-per-line': [1, { maximum: 1 }],
     },
     globals: {
         __IS_DEV__: true,

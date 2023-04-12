@@ -13,6 +13,7 @@ import { Icon } from 'shared/ui/Icon/Icon';
 import { ArticleCodeBlockComponent } from 'entities/Article/ui/ArticleCodeBlockComponent/ArticleCodeBlockComponent';
 import { ArticleTextBlockComponent } from 'entities/Article/ui/ArticleTextBlockComponent/ArticleTextBlockComponent';
 import { ArticleImageBlockComponent } from 'entities/Article/ui/ArticleImageBlockComponent/ArticleImageBlockComponent';
+import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { ArticleBlock, ArticleBlockType } from '../../model/types/article';
 import {
     getArticleDetailsData,
@@ -44,13 +45,31 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
     const renderBlock = useCallback((block: ArticleBlock) => {
         switch (block.type) {
         case ArticleBlockType.CODE:
-            return <ArticleCodeBlockComponent key={block.id} className={cls.block} block={block} />;
+            return (
+                <ArticleCodeBlockComponent
+                    key={block.id}
+                    className={cls.block}
+                    block={block}
+                />
+            );
 
         case ArticleBlockType.TEXT:
-            return <ArticleTextBlockComponent key={block.id} className={cls.block} block={block} />;
+            return (
+                <ArticleTextBlockComponent
+                    key={block.id}
+                    className={cls.block}
+                    block={block}
+                />
+            );
 
         case ArticleBlockType.IMAGE:
-            return <ArticleImageBlockComponent key={block.id} className={cls.block} block={block} />;
+            return (
+                <ArticleImageBlockComponent
+                    key={block.id}
+                    className={cls.block}
+                    block={block}
+                />
+            );
 
         default:
             return null;
@@ -68,11 +87,32 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
     if (isLoading) {
         content = (
             <>
-                <Skeleton className={cls.avatar} width={200} height={200} border="50%" />
-                <Skeleton className={cls.title} width={300} height={32} />
-                <Skeleton className={cls.skeleton} width={600} height={24} />
-                <Skeleton className={cls.skeleton} width="100%" height={200} />
-                <Skeleton className={cls.skeleton} width="100%" height={200} />
+                <Skeleton
+                    className={cls.avatar}
+                    width={200}
+                    height={200}
+                    border="50%"
+                />
+                <Skeleton
+                    className={cls.title}
+                    width={300}
+                    height={32}
+                />
+                <Skeleton
+                    className={cls.skeleton}
+                    width={600}
+                    height={24}
+                />
+                <Skeleton
+                    className={cls.skeleton}
+                    width="100%"
+                    height={200}
+                />
+                <Skeleton
+                    className={cls.skeleton}
+                    width="100%"
+                    height={200}
+                />
             </>
         );
     } else if (error) {
@@ -99,11 +139,17 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
                     size={TextSize.L}
                 />
                 <div className={cls.articleInfo}>
-                    <Icon className={cls.icon} Svg={EyeIcon} />
+                    <Icon
+                        className={cls.icon}
+                        Svg={EyeIcon}
+                    />
                     <Text text={String(article?.views)} />
                 </div>
                 <div className={cls.articleInfo}>
-                    <Icon className={cls.icon} Svg={CalendarIcon} />
+                    <Icon
+                        className={cls.icon}
+                        Svg={CalendarIcon}
+                    />
                     <Text text={article?.createdAt} />
                 </div>
                 {article?.blocks.map(renderBlock)}
@@ -112,7 +158,10 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
     }
 
     return (
-        <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
+        <DynamicModuleLoader
+            reducers={reducers}
+            removeAfterUnmount
+        >
             <div className={classNames(cls.ArticleDetails, {}, [className])}>
                 {content}
             </div>
