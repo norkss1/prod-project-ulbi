@@ -21,5 +21,7 @@
   "country": "Specify country",
   "title_form": "Authorization Form",
   "error_form": "Incorrect username or password",
-  "no_comments": "No comments"
+  "no_comments": "No comments",
+  "comment_text": "Enter comment text",
+  "send_btn": "Send"
 }
