@@ -5,10 +5,12 @@
       " Eos fugiat illum itaque iure nam nihil placeat vel!": ""
     }
   },
+  "Read more": "",
   "about_page": "",
   "age": "",
   "article_not_found": "",
   "avatar": "",
+  "back_to_list": "",
   "cancel_btn": "",
   "city": "",
   "comment_text": "",
@@ -38,6 +40,7 @@
   },
   "profile_page": "",
   "profile_title": "",
+  "read_more": "",
   "reload_page": "Обновить страницу",
   "save_btn": "",
   "send_btn": "",

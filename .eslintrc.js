@@ -57,6 +57,7 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/jsx-max-props-per-line': [1, { maximum: 1 }],
+        'react/no-array-index-key': 'off',
     },
     globals: {
         __IS_DEV__: true,
