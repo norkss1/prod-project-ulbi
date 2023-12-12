@@ -1,5 +1,16 @@
 {
   "article_not_found": "Article not found",
   "download-error": "An error occurred while loading the article",
-  "comments": "Comments"
+  "comments": "Comments",
+  "sorting": "Sort software",
+  "search": "Search",
+  "ascending": "ascending",
+  "descending": "descending",
+  "sort_creation_date": "by creation date",
+  "sort_title": "by creation date",
+  "sort_views": "by creation date",
+  "all_articles": "All articles",
+  "IT": "IT",
+  "ECONOMICS": "Economics",
+  "SCIENCE": "Science"
 }

@@ -25,5 +25,6 @@
   "comment_text": "Enter comment text",
   "send_btn": "Send",
   "read_more": "Read more...",
-  "back_to_list": "Back to list"
+  "back_to_list": "Back to list",
+  "articles_not_found": "Articles not found"
 }
