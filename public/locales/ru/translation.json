@@ -26,5 +26,9 @@
   "send_btn": "Отправить",
   "read_more": "Читать далее...",
   "back_to_list": "Назад к списку",
-  "articles_not_found": "Статьи не найдены"
+  "all_articles": "Все статьи",
+  "articles_not_found": "Статьи не найдены",
+  "edit": "Редактировать",
+  "title_create_article": "Ulbi TV App",
+  "create_article": "Создать статью"
 }
