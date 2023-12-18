@@ -55,7 +55,12 @@ const LoginForm = memo(({ className, onSuccess }: LoginFormProps) => {
         >
             <div className={classNames(cls.LoginForm, {}, [className])}>
                 <Text title={t('title_form')} />
-                {error && <Text text={t('error_form')} theme={TextTheme.ERROR} />}
+                {error && (
+                    <Text
+                        text={t('error_form')}
+                        theme={TextTheme.ERROR}
+                    />
+                )}
                 <Input
                     autofocus
                     className={cls.input}
