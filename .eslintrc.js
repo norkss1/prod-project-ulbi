@@ -48,13 +48,15 @@ module.exports = {
             {
                 markupOnly: true,
                 ignoreAttribute: [
+                    'role',
                     'data-testid',
                     'to',
                     'target',
                     'justify',
                     'align',
                     'direction',
-                    'gap'],
+                    'gap',
+                ],
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 130 }],
