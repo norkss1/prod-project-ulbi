@@ -32,5 +32,7 @@
   "title_create_article": "Ulbi TV App",
   "create_article": "Create article",
   "currency_select": "Select currency",
-  "country_select": "Select country"
+  "country_select": "Select country",
+  "user_profile": "Profile",
+  "exit_btn": "Exit"
 }

@@ -9,10 +9,58 @@ export default {
     argTypes: {
         backgroundColor: { control: 'color' },
     },
+    decorators: [
+        (Story) => <div style={{ padding: 100 }}><Story /></div>,
+    ],
 } as ComponentMeta<typeof ListBox>;
 
 const Template: ComponentStory<typeof ListBox> = (args) => <ListBox {...args} />;
 
 export const Normal = Template.bind({});
 Normal.args = {
+    value: '123',
+    items: [
+        { content: 'asdasdasds123', value: '213' },
+        { content: 'asasfgdhfgfgh123', value: '12334213' },
+    ],
+};
+
+export const topLeft = Template.bind({});
+topLeft.args = {
+    direction: 'top left',
+    value: '123',
+    items: [
+        { content: 'asdasdasds123', value: '213' },
+        { content: 'asasfgdhfgfgh123', value: '12334213' },
+    ],
+};
+
+export const topRight = Template.bind({});
+topRight.args = {
+    direction: 'top right',
+    value: '123',
+    items: [
+        { content: 'asdasdasds123', value: '213' },
+        { content: 'asasfgdhfgfgh123', value: '12334213' },
+    ],
+};
+
+export const bottomLeft = Template.bind({});
+bottomLeft.args = {
+    direction: 'bottom left',
+    value: '123',
+    items: [
+        { content: 'asdasdasds123', value: '213' },
+        { content: 'asasfgdhfgfgh123', value: '12334213' },
+    ],
+};
+
+export const bottomRight = Template.bind({});
+bottomRight.args = {
+    direction: 'bottom right',
+    value: '123',
+    items: [
+        { content: 'asdasdasds123', value: '213' },
+        { content: 'asasfgdhfgfgh123', value: '12334213' },
+    ],
 };
