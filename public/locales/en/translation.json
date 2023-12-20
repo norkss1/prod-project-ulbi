@@ -30,5 +30,7 @@
   "articles_not_found": "Articles not found",
   "edit": "Edit",
   "title_create_article": "Ulbi TV App",
-  "create_article": "Create article"
+  "create_article": "Create article",
+  "currency_select": "Select currency",
+  "country_select": "Select country"
 }
