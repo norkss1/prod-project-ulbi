@@ -34,5 +34,6 @@
   "currency_select": "Выберите валюту",
   "country_select": "Выберите страну",
   "user_profile": "Профиль",
-  "exit_btn": "Выйти"
+  "exit_btn": "Выйти",
+  "article_load_error": "Ошибка при загрузке статей"
 }

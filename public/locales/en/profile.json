@@ -9,6 +9,7 @@
   "city": "Your city",
   "username": "Your username",
   "avatar": "Your avatar",
+  "profile_error": "Profile not found",
   "profile_card": {
     "error_title": "An error occurred while loading the profile",
     "error_text": "Try refreshing the page"

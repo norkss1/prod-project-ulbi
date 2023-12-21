@@ -34,5 +34,6 @@
   "currency_select": "Select currency",
   "country_select": "Select country",
   "user_profile": "Profile",
-  "exit_btn": "Exit"
+  "exit_btn": "Exit",
+  "article_load_error": "Error loading articles"
 }
