@@ -33,6 +33,7 @@
   "create_article": "Create article",
   "currency_select": "Select currency",
   "country_select": "Select country",
+  "admin_profile": "Admin",
   "user_profile": "Profile",
   "exit_btn": "Exit",
   "article_load_error": "Error loading articles"

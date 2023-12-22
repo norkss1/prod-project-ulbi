@@ -33,6 +33,7 @@
   "create_article": "Создать статью",
   "currency_select": "Выберите валюту",
   "country_select": "Выберите страну",
+  "admin_profile": "Админка",
   "user_profile": "Профиль",
   "exit_btn": "Выйти",
   "article_load_error": "Ошибка при загрузке статей"
