@@ -172,6 +172,7 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
             removeAfterUnmount
         >
             <VStack
+                max
                 gap="16"
                 className={classNames(cls.ArticleDetails, {}, [className])}
             >
