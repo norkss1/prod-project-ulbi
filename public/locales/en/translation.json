@@ -36,5 +36,7 @@
   "admin_profile": "Admin",
   "user_profile": "Profile",
   "exit_btn": "Exit",
-  "article_load_error": "Error loading articles"
+  "article_load_error": "Error loading articles",
+  "feedback": "Your feedback",
+  "close_btn": "Close"
 }

@@ -36,5 +36,7 @@
   "admin_profile": "Админка",
   "user_profile": "Профиль",
   "exit_btn": "Выйти",
-  "article_load_error": "Ошибка при загрузке статей"
+  "article_load_error": "Ошибка при загрузке статей",
+  "feedback": "Ваш отзыв",
+  "close_btn": "Закрыть"
 }
