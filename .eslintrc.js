@@ -71,7 +71,13 @@ module.exports = {
         'react/jsx-max-props-per-line': [1, { maximum: 1 }],
         'react/no-array-index-key': 'off',
         'ulbi-tv-plugin/path-checker': ['error', { alias: '@' }],
-        'ulbi-tv-plugin/public-api-imports': ['error', { alias: '@' }],
+        'ulbi-tv-plugin/public-api-imports': [
+            'error',
+            {
+                alias: '@',
+                testFilesPatterns: ['**/*.test.*', '**/*.story.*', '**/StoreDecorator.tsx'],
+            },
+        ],
     },
     globals: {
         __IS_DEV__: true,

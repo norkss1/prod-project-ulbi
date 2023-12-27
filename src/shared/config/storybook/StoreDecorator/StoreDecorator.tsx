@@ -1,23 +1,18 @@
 import { Story } from '@storybook/react';
 import { StateSchema, StoreProvider } from '@/app/providers/StoreProvider';
-// @ts-ignore
-import { loginReducer } from '@/features/AuthByUsername';
+import { loginReducer } from '@/features/AuthByUsername/testing';
 import { ReducersList } from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
-// @ts-ignore
-import { articleDetailsReducer } from '@/entities/Article';
-// @ts-ignore
-import { addCommentFormReducer } from '@/features/addCommentForm';
-// @ts-ignore
-import { articleDetailsPageReducer } from '@/pages/ArticleDetailsPage';
-// @ts-ignore
-import { profileReducer } from '@/features/editableProfileCard';
+import { articleDetailsReducer } from '@/entities/Article/testing';
+import { addCommentFormReducer } from '@/features/addCommentForm/testing';
+// import { articleDetailsPageReducer } from '@/pages/ArticleDetailsPage';
+import { profileReducer } from '@/features/editableProfileCard/testing';
 
 const defaultAsyncReducers: ReducersList = {
     loginForm: loginReducer,
     profile: profileReducer,
     articleDetails: articleDetailsReducer,
     addCommentForm: addCommentFormReducer,
-    ArticleDetailsPage: articleDetailsPageReducer,
+    // ArticleDetailsPage: articleDetailsPageReducer,
 };
 
 export const StoreDecorator = (
