@@ -70,7 +70,7 @@ module.exports = {
         'no-undef': 'off',
         'react/jsx-max-props-per-line': [1, { maximum: 1 }],
         'react/no-array-index-key': 'off',
-        'ulbi-tv-plugin/path-checker': 'error',
+        'ulbi-tv-plugin/path-checker': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
