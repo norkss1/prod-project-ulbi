@@ -18,7 +18,7 @@ interface ArticleDetailsPageProps {
 }
 
 const reducers: ReducersList = {
-    ArticleDetailsPage: articleDetailsPageReducer,
+    articleDetailsPage: articleDetailsPageReducer,
 };
 
 const ArticleDetailsPage = (props: ArticleDetailsPageProps) => {

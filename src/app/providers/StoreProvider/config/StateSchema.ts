@@ -25,7 +25,7 @@ export interface StateSchema {
     articleDetails?: ArticleDetailsSchema;
     addCommentForm?: AddCommentFormSchema;
     articlesPage?: ArticlePageSchema;
-    ArticleDetailsPage?: ArticleDetailsPageSchema;
+    articleDetailsPage?: ArticleDetailsPageSchema;
 }
 export type StateSchemaKey = keyof StateSchema;
 export type MountedReducers = OptionalRecord<StateSchemaKey, boolean>;
