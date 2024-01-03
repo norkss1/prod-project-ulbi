@@ -137,6 +137,7 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
                     />
                 </HStack>
                 <VStack
+                    data-testid="ArticleDetails.Info"
                     gap="4"
                     max
                 >
