@@ -16,14 +16,14 @@ interface ProfileCardProps {
     error?: string;
     isLoading?: boolean;
     readonly?: boolean;
-    onChangeFirstname?: (value?: string) => void
-    onChangeLastname?: (value?: string) => void
+    onChangeFirstname?: (value?: string) => void;
+    onChangeLastname?: (value?: string) => void;
     onChangeAge?: (value?: string) => void;
-    onChangeCity?: (value?: string) => void
-    onChangeUsername?: (value?: string) => void
-    onChangeAvatar?: (value?: string) => void
-    onChangeCurrency?: (currency?: Currency) => void
-    onChangeCountry?: (country?: Country) => void
+    onChangeCity?: (value?: string) => void;
+    onChangeUsername?: (value?: string) => void;
+    onChangeAvatar?: (value?: string) => void;
+    onChangeCurrency?: (currency?: Currency) => void;
+    onChangeCountry?: (country?: Country) => void;
 }
 
 export const ProfileCard = (props: ProfileCardProps) => {
@@ -48,7 +48,11 @@ export const ProfileCard = (props: ProfileCardProps) => {
         return (
             <HStack
                 justify="center"
-                className={classNames(cls.ProfileCard, { [cls.loading]: true }, [className])}
+                className={classNames(
+                    cls.ProfileCard,
+                    { [cls.loading]: true },
+                    [className],
+                )}
             >
                 <Loader />
             </HStack>
@@ -60,7 +64,10 @@ export const ProfileCard = (props: ProfileCardProps) => {
             <HStack
                 max
                 justify="center"
-                className={classNames(cls.ProfileCard, {}, [className, cls.error])}
+                className={classNames(cls.ProfileCard, {}, [
+                    className,
+                    cls.error,
+                ])}
             >
                 <Text
                     theme={TextTheme.ERROR}
@@ -83,10 +90,7 @@ export const ProfileCard = (props: ProfileCardProps) => {
             className={classNames(cls.ProfileCard, mods, [className])}
         >
             {data?.avatar && (
-                <HStack
-                    justify="center"
-                    max
-                >
+                <HStack justify="center" max>
                     <Avatar src={data?.avatar} />
                 </HStack>
             )}

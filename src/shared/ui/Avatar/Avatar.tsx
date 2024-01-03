@@ -9,27 +9,28 @@ import { Skeleton } from '../Skeleton';
 interface AvatarProps {
     className?: string;
     src?: string;
-    size?: number
+    size?: number;
     alt?: string;
-    fallbackInverted?: boolean
+    fallbackInverted?: boolean;
 }
 export const Avatar = ({
-    className, src, size = 100, alt, fallbackInverted,
+    className,
+    src,
+    size = 100,
+    alt,
+    fallbackInverted,
 }: AvatarProps) => {
     const mods: Mods = {};
 
-    const styles = useMemo<CSSProperties>(() => ({
-        width: size,
-        height: size,
-    }), [size]);
-
-    const fallback = (
-        <Skeleton
-            width={size}
-            height={size}
-            border="50%"
-        />
+    const styles = useMemo<CSSProperties>(
+        () => ({
+            width: size,
+            height: size,
+        }),
+        [size],
     );
+
+    const fallback = <Skeleton width={size} height={size} border="50%" />;
 
     const errorFallback = (
         <Icon

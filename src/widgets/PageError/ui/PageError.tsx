@@ -17,9 +17,7 @@ export const PageError = ({ className }: PageErrorProps) => {
     return (
         <div className={classNames(cls.PageError, {}, [className])}>
             <p>{t('error_boundary_text')}</p>
-            <Button onClick={reloadPage}>
-                {t('reload_page')}
-            </Button>
+            <Button onClick={reloadPage}>{t('reload_page')}</Button>
         </div>
     );
 };

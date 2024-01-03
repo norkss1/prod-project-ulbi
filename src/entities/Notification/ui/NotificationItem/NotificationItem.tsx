@@ -7,7 +7,7 @@ import { Notification } from '../../model/types/notification';
 
 interface NotificationItemProps {
     className?: string;
-    item: Notification
+    item: Notification;
 }
 
 export const NotificationItem = memo((props: NotificationItemProps) => {
@@ -18,10 +18,7 @@ export const NotificationItem = memo((props: NotificationItemProps) => {
             theme={CardTheme.OUTLINED}
             className={classNames(cls.NotificationItem, {}, [className])}
         >
-            <Text
-                title={item.title}
-                text={item.description}
-            />
+            <Text title={item.title} text={item.description} />
         </Card>
     );
 

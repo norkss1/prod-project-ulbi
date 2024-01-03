@@ -1,21 +1,21 @@
 {
-  "age": "age",
-  "avatar": "avatar",
-  "cancel_btn": "cancel_btn",
-  "city": "city",
-  "edit_btn": "edit_btn",
-  "first_name": "first_name",
-  "last_name": "last_name",
-  "profile_card": {
-    "error_text": "error_text",
-    "error_title": "error_title"
-  },
-  "profile_title": "profile_title",
-  "save_btn": "save_btn",
-  "username": "username",
-  "Данные не указаны": "Данные не указаны",
-  "Имя и фамилия обязательны": "Имя и фамилия обязательны",
-  "Некорректный возраст": "Некорректный возраст",
-  "Некорректный регион": "Некорректный регион",
-  "Серверная ошибка при сохранении": "Серверная ошибка при сохранении"
+    "age": "age",
+    "avatar": "avatar",
+    "cancel_btn": "cancel_btn",
+    "city": "city",
+    "edit_btn": "edit_btn",
+    "first_name": "first_name",
+    "last_name": "last_name",
+    "profile_card": {
+        "error_text": "error_text",
+        "error_title": "error_title"
+    },
+    "profile_title": "profile_title",
+    "save_btn": "save_btn",
+    "username": "username",
+    "Данные не указаны": "Данные не указаны",
+    "Имя и фамилия обязательны": "Имя и фамилия обязательны",
+    "Некорректный возраст": "Некорректный возраст",
+    "Некорректный регион": "Некорректный регион",
+    "Серверная ошибка при сохранении": "Серверная ошибка при сохранении"
 }

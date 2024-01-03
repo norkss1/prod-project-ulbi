@@ -25,9 +25,7 @@ const article = {
         username: 'Ulbi TV',
         avatar: 'https://png.pngtree.com/png-clipart/20200701/big/pngtree-hacker-wearing-hoodie-using-laptop-computer-freak-hacking-and-malware-concept-png-image_5424355.png',
     },
-    type: [
-        'IT',
-    ],
+    type: ['IT'],
     blocks: [
         {
             id: '1',
@@ -90,7 +88,9 @@ const article = {
     ],
 } as Article;
 
-const Template: ComponentStory<typeof ArticleList> = (args) => <ArticleList {...args} />;
+const Template: ComponentStory<typeof ArticleList> = (args) => (
+    <ArticleList {...args} />
+);
 
 export const isLoadingBig = Template.bind({});
 isLoadingBig.args = {

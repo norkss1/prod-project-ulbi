@@ -1,26 +1,26 @@
 {
-  "profile_title": "Profile",
-  "save_btn": "Save",
-  "edit_btn": "Edit",
-  "cancel_btn": "Cancel",
-  "first_name": "Your name",
-  "last_name": "Your lastname",
-  "age": "Your age",
-  "city": "Your city",
-  "username": "Your username",
-  "avatar": "Your avatar",
-  "profile_error": "Profile not found",
-  "profile_card": {
-    "error_title": "An error occurred while loading the profile",
-    "error_text": "Try refreshing the page"
-  },
-  "profile_page": {
-    "error": {
-      "server": "Server error on save",
-      "country": "Incorrect region",
-      "age": "Incorrect age",
-      "user_data": "First and last name are required",
-      "no_data": "Data not specified"
+    "profile_title": "Profile",
+    "save_btn": "Save",
+    "edit_btn": "Edit",
+    "cancel_btn": "Cancel",
+    "first_name": "Your name",
+    "last_name": "Your lastname",
+    "age": "Your age",
+    "city": "Your city",
+    "username": "Your username",
+    "avatar": "Your avatar",
+    "profile_error": "Profile not found",
+    "profile_card": {
+        "error_title": "An error occurred while loading the profile",
+        "error_text": "Try refreshing the page"
+    },
+    "profile_page": {
+        "error": {
+            "server": "Server error on save",
+            "country": "Incorrect region",
+            "age": "Incorrect age",
+            "user_data": "First and last name are required",
+            "no_data": "Data not specified"
+        }
     }
-  }
 }

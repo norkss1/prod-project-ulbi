@@ -13,7 +13,9 @@ export default {
     },
 } as ComponentMeta<typeof ArticleListItem>;
 
-const Template: ComponentStory<typeof ArticleListItem> = (args) => <ArticleListItem {...args} />;
+const Template: ComponentStory<typeof ArticleListItem> = (args) => (
+    <ArticleListItem {...args} />
+);
 
 const article = {
     id: '1',
@@ -27,9 +29,7 @@ const article = {
         username: 'Ulbi TV',
         avatar: 'https://png.pngtree.com/png-clipart/20200701/big/pngtree-hacker-wearing-hoodie-using-laptop-computer-freak-hacking-and-malware-concept-png-image_5424355.png',
     },
-    type: [
-        'IT',
-    ],
+    type: ['IT'],
     blocks: [
         {
             id: '1',
