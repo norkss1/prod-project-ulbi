@@ -27,6 +27,7 @@ interface TextProps {
     theme?: TextTheme;
     align?: TextAlign;
     size?: TextSize;
+
     'data-testid'?: string;
 }
 
@@ -42,19 +43,18 @@ const mapSizeToHeaderTag: Record<TextSize, HeaderTagType> = {
  * Устарел, используем новые компоненты из папки redesigned
  * @deprecated
  */
-
 export const Text = memo((props: TextProps) => {
     const {
         className,
         text,
         title,
         theme = TextTheme.PRIMARY,
-        align = TextAlign.CENTER,
+        align = TextAlign.LEFT,
         size = TextSize.M,
         'data-testid': dataTestId = 'Text',
     } = props;
 
-    const HeaderTag: HeaderTagType = mapSizeToHeaderTag[size];
+    const HeaderTag = mapSizeToHeaderTag[size];
 
     const mods: Mods = {
         [cls[theme]]: true,

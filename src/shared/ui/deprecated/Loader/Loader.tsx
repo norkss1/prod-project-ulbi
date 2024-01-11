@@ -1,5 +1,5 @@
 import { classNames } from '@/shared/lib/classNames/classNames';
-import cls from './Loader.module.scss';
+import './Loader.scss';
 
 interface LoaderProps {
     className?: string;
@@ -9,7 +9,11 @@ interface LoaderProps {
  * Устарел, используем новые компоненты из папки redesigned
  * @deprecated
  */
-
 export const Loader = ({ className }: LoaderProps) => (
-    <div className={classNames(cls['lds-dual-ring'], {}, [className])} />
+    <div className={classNames('lds-ellipsis', {}, [className])}>
+        <div />
+        <div />
+        <div />
+        <div />
+    </div>
 );

@@ -25,7 +25,6 @@ interface InputProps extends HTMLInputProps {
  * Устарел, используем новые компоненты из папки redesigned
  * @deprecated
  */
-
 export const Input = memo((props: InputProps) => {
     const {
         className,
@@ -37,7 +36,6 @@ export const Input = memo((props: InputProps) => {
         readonly,
         ...otherProps
     } = props;
-
     const ref = useRef<HTMLInputElement>(null);
     const [isFocused, setIsFocused] = useState(false);
     const [caretPosition, setCaretPosition] = useState(0);
@@ -73,7 +71,7 @@ export const Input = memo((props: InputProps) => {
     };
 
     return (
-        <div className={classNames(cls.InputWrapper, mods, [className])}>
+        <div className={classNames(cls.InputWrapper, {}, [className])}>
             {placeholder && (
                 <div className={cls.placeholder}>{`${placeholder}>`}</div>
             )}

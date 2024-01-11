@@ -20,12 +20,13 @@ interface SelectProps<T extends string> {
  * Устарел, используем новые компоненты из папки redesigned
  * @deprecated
  */
-
 export const Select = <T extends string>(props: SelectProps<T>) => {
-    const { className, label, options, value, onChange, readonly } = props;
+    const { className, label, options, onChange, value, readonly } = props;
 
     const onChangeHandler = (e: ChangeEvent<HTMLSelectElement>) => {
-        onChange?.(e.target.value as T);
+        if (onChange) {
+            onChange(e.target.value as T);
+        }
     };
 
     const optionsList = useMemo(
