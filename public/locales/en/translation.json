@@ -43,5 +43,8 @@
     "rate_feedback": "Leave your feedback on the article, this will help improve the quality",
     "rate_thanks": "Thank you for rating!",
     "welcome_articles_page_header": "Welcome to the articles page",
-    "welcome_articles_page_text": "Here you can search and view articles on various topics"
+    "welcome_articles_page_text": "Here you can search and view articles on various topics",
+    "variant_interface": "Interface option",
+    "new": "New",
+    "old": "Old"
 }
