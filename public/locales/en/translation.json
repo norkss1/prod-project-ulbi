@@ -46,5 +46,8 @@
     "welcome_articles_page_text": "Here you can search and view articles on various topics",
     "variant_interface": "Interface option",
     "new": "New",
-    "old": "Old"
+    "old": "Old",
+    "{{count}} просмотров_zero": "{{count}} views",
+    "{{count}} просмотров_one": "{{count}} view",
+    "{{count}} просмотров_other": "{{count}} views"
 }
