@@ -70,13 +70,15 @@ export const Button = memo((props: ButtonProps) => {
     };
 
     return (
-        <button
-            type="button"
-            className={classNames(cls.Button, mods, [className])}
-            disabled={disabled}
-            {...otherProps}
-        >
-            {children}
-        </button>
+        <div>
+            <button
+                type="button"
+                className={classNames(cls.Button, mods, [className])}
+                disabled={disabled}
+                {...otherProps}
+            >
+                {children}
+            </button>
+        </div>
     );
 });

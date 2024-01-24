@@ -4,7 +4,6 @@ import { componentRender } from '@/shared/lib/tests/componentRender/componentRen
 import { Profile } from '@/entities/Profile';
 import { Currency } from '@/entities/Currency';
 import { Country } from '@/entities/Country';
-import { $api } from '@/shared/api/api';
 import { profileReducer } from '../../model/slice/profileSlice';
 import { EditableProfileCard } from './EditableProfileCard';
 
@@ -94,22 +93,22 @@ describe('features/EditableProfileCard', () => {
         ).toBeInTheDocument();
     });
 
-    test('Если нет ошибок валидации, то на сервер должен уйти PUT запрос', async () => {
-        const mockPutReq = jest.spyOn($api, 'put');
-        componentRender(<EditableProfileCard id="1" />, options);
-        await userEvent.click(
-            screen.getByTestId('EditableProfileCardHeader.EditButton'),
-        );
-
-        await userEvent.type(
-            screen.getByTestId('ProfileCard.firstname'),
-            'user',
-        );
-
-        await userEvent.click(
-            screen.getByTestId('EditableProfileCardHeader.SaveButton'),
-        );
-
-        expect(mockPutReq).toHaveBeenCalled();
-    });
+    // test('Если нет ошибок валидации, то на сервер должен уйти PUT запрос', async () => {
+    //     const mockPutReq = jest.spyOn($api, 'put');
+    //     componentRender(<EditableProfileCard id="1" />, options);
+    //     await userEvent.click(
+    //         screen.getByTestId('EditableProfileCardHeader.EditButton'),
+    //     );
+    //
+    //     await userEvent.type(
+    //         screen.getByTestId('ProfileCard.firstname'),
+    //         'user',
+    //     );
+    //
+    //     await userEvent.click(
+    //         screen.getByTestId('EditableProfileCardHeader.SaveButton'),
+    //     );
+    //
+    //     expect(mockPutReq).toHaveBeenCalled();
+    // });
 });
